@@ -40,3 +40,8 @@ Note:-  Most of the resources are collected from the internet.
 
 - Calculus 
     - [calculus by 3BLue1Brown](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&pp=iAQB)
+
+- [datasciencemathskills from  coursera](https://www.coursera.org/learn/datasciencemathskills)
+
+
+
