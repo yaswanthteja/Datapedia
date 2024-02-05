@@ -18,7 +18,7 @@ Whether you're a beginner or an expert, Datapedia is your guide to the best open
 🔍✨ Join our community of data enthusiasts, learners, and experts. 
 
 
-Note:-  Most of the resources are collected from the internet.
+**Note:-  Most of the resources are collected from the internet.**
 
 
 
