@@ -13,7 +13,8 @@ Whether you're a beginner or an expert, Datapedia is your guide to the best open
 
 
 
-🚀🔍 Ready to embark on your data-driven adventure? Dive into Datapedia today! 
+🚀🔍 Ready to embark on your data-driven adventure? Dive into Datapedia today! .
+
 
 🔍✨ Join our community of data enthusiasts, learners, and experts. 
 
@@ -41,7 +42,7 @@ Whether you're a beginner or an expert, Datapedia is your guide to the best open
 - Calculus 
     - [calculus by 3BLue1Brown](https://www.youtube.com/watch?v=WUvTyaaNkzM&list=PLZHQObOWTQDMsr9K-rj53DwVRMYO3t5Yr&pp=iAQB)
 
-- [datasciencemathskills from  coursera](https://www.coursera.org/learn/datasciencemathskills)
+- [datasciencemathskills from  Coursera](https://www.coursera.org/learn/datasciencemathskills)
 
 
 
