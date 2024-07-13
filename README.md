@@ -4,11 +4,6 @@
 🚀  Welcome to Datapedia – Your Hub for Data Science Resources on GitHub!  📊
 
 Unlock the vast world of data science with Datapedia, your go-to hub for discovering curated resources on GitHub.
-
-
-
-Discover curated repositories, tools, and projects to fuel your data science journey. 
-
 Whether you're a beginner or an expert, Datapedia is your guide to the best open-source projects, datasets, and tutorials. Explore, learn, and contribute to the ever-expanding world of data science with us! 
 
 
