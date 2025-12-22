@@ -38,4 +38,19 @@
   -  select the column -> ctrl+leftarrow -> in the view ribbon ->we have freeze panes -> select freeze top row, now we can scroll any rows, still the header is visible
   -  To make it normal ->ctrl+leftarrow -> in the view ribbon ->we have freeze panes -> select unfreeze rows, it makes it normal.
  
-     
+
+  ### Auto-adjusting rows and columns
+
+The default width of the row cell is 16, and the column cell is 10
+- select the row/ column, right click to see the width
+
+- select the data Ctrl+ A
+- now for rows we use `Alt + H + O+ A`
+- now for columns we use `Alt + H + O + I`
+
+
+
+
+
+
+
