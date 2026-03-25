@@ -1,10 +1,5 @@
 ## Excel Shortcuts
 
-### Data Entry
-   - First  type the column names and select the columns  using ctrl+shift+leftarrow or using the mouse.
-   -  Now, press Alt+D+O. This will open like a form by using tab we can switch to next,  by pressing enter will make an entry
-
-
 ## Excel Formulas
 
  -  Applying table format
@@ -55,6 +50,23 @@ The default width of the row cell is 16, and the column cell is 10
 
 
 
+### Data Entry
+   - First  type the column names and select the columns  using ctrl+shift+leftarrow or using the mouse.
+   -  Now, press Alt+D+O. This will open like a form by using tab we can switch to next,  by pressing enter will make an entry
+
+
+### Formulas
+
+##### Basic mathematical operations on rows
+
+- for adding entire rows  `Alt =` -> it automatically applies sum formula  on row
+- for average `alt+H+U+A` -> it automatically applies average  formula on row
+- for maximum  `Alt+h+m` ->it automatically applies maximum  formula on row
+- For minimum  `Alt+h+I` -> It aautomatically applies minimum formula in row
+-  for count
+   - we use `=Count(cell range:cell range) ` count -> it only counts numbers
+   -   we use `=CountA(cell range:cell range)` counta -> counts everything except blanks
+   -   we use `=countBLANK(cell range:cell range)` countblank -> counts only blank cells
 
 
 
