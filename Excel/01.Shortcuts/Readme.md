@@ -1,5 +1,10 @@
 ## Excel Shortcuts
 
+### Data Entry
+   - First  type the column names and select the columns  using ctrl+shift+leftarrow or using the mouse.
+   -  Now, press Alt+D+O. This will open like a form by using tab we can switch to next,  by pressing enter will make an entry
+
+
 ## Excel Formulas
 
  -  Applying table format
