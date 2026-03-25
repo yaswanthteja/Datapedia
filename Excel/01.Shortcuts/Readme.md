@@ -69,5 +69,90 @@ The default width of the row cell is 16, and the column cell is 10
    -   we use `=countBLANK(cell range:cell range)` countblank -> counts only blank cells
 
 
+### Text formulas
+
+- Upper letter :- we use `=upper(cell range)`
+- lower letter :- we use `=LOWER(cell range)`
+- Proper text(ex: Microsoft Excel) : - we use `=PROPER(cell range)`
 
 
+#### Extracting text (left,mid,right)
+
+- left :- by using this we get left characters `=LEFT(text,char) `
+- right :- by using this we get right characters `=RIGHT(text,char)`
+- mid :- by using this we can get mid characters `=MID(text,start_num(index),text_char)`
+
+### Date to Text
+
+- we use TEXT function to convert date into text.
+- ex: 15-03-2026  -> to find out what day it was
+   - we use `=TEXT(cell range,"DDDD")` -> saturday
+   - we use `=TEXT(cell range,"MMMM")` -> march
+   - we use `=TEXT(cell range,"yyyy")` -> 2026
+
+
+ - Edate : - edate will give you the exact date in the given range, best for finding due dates
+ - `=EDATE(cell range,month)` -> note we will get number so we  have to change -> in number section -> change general -> short date
+ 
+- Day and Days
+  -  if it is DAY -> we get single value which is day it self ex: 03-05-2026 -> `=DAY(date)` -> 3
+  -  If it is DAYS -> we get the difference between days  :- `=DAYS(end_date,start_date)` -> ex: 01-03-2026 to 10-03-2026 -> 10
+
+- NETWORKDAYS
+    in excel
+   - working day (Mon-fri)
+   -  Weekend(sat,sun)
+ 
+  - By using this networkdays exxcel automatically removes weekends
+  - `=NETWORKDAYS(startdate,enddate)`  -> -> ex: 01-03-2026 to 10-03-2026 -> 10 days but we get only 7 cause it removes weekends
+
+ ### logical formulas
+
+
+ - IF check the condition
+
+   `=IF(logical_test condition,value if true,value if false)` -> it checks the condition and assign the values
+
+- SUMIF  -> if your are using in range better to fix that with F4
+   -  if we need to find a person how much sales have done in group of people
+      - range -> enitre sales persons name
+      - criteria -> sales person name
+      - sum range -> amount
+  
+   - `=SUMIF(range,criteria,sumrange)` ->
+ 
+- AVERAGEIF  -> if your are using in range better to fix that with F4
+   -  if we need to find a person how much sales average  have done in group of people
+      - range -> enitre sales persons name
+      - criteria -> sales person name
+      -  rangevalue -> amount
+  
+   - `=AVERAGEIF(range,criteria,rangevalue)` ->
+ 
+-- COUNTIF  -> if your are using in range better to fix that with F4
+   -  if we need to find  how many times does the person    have in group of people
+      - range -> enitre sales persons name
+      - criteria -> sales person name
+      - `=COUNTIF(range,criteria)`
+    
+
+
+  ### Finding the data using lookups
+
+  - VlooKup
+    - lookup value -> what to find
+    - table array -> complete table   -> try to avoid serial numbers
+    - column index -> answer column
+    - true/false -> true: proximate, false: absolute value
+
+-`=VLOOKUP(lookupvalue,table array,column index_num, range->true/false)` -> ex: =Vlookup(personname,table array, 3,false)
+
+
+  - Xlookup
+     - lookup value -> criteria/what to find
+     - lookup array ->  criteria entire column
+     - return array -> answer column
+
+    - `=Xlookup(lookupvalue,lookup array,return array)`  ex: - Xlookup(person name,persons column fix with F4,return column answer)
+
+       
